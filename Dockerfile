@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     git
 
-RUN python3.10 -m pip install --no-cache-dir PyYAML
+RUN python3 -m pip install --no-cache-dir PyYAML
 
 COPY feed.py /usr/bin/feed.py
 
