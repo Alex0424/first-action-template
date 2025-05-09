@@ -1,1 +1,0 @@
-# first-action-template
